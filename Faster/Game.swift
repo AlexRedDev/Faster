@@ -45,10 +45,10 @@ class Game {
         }
     }
     
-    init(countItem: Int, time: Int, updateTimer: @escaping (_ status: StatusGame, _ second: Int) -> Void) {
+    init(countItem: Int, updateTimer: @escaping (_ status: StatusGame, _ second: Int) -> Void) {
         self.countItems = countItem
-        self.timeForGame = time
-        self.secondsGame = time
+        self.timeForGame = Settings.shared.currentSettings.timeForGame
+        self.secondsGame = Settings.shared.currentSettings.timeForGame
         self.updateTimer = updateTimer
         setupGame()
     }
@@ -63,9 +63,13 @@ class Game {
         
         nextItem = items.shuffled().first
         updateTimer(status, secondsGame)
-        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { [weak self] (_) in
-            self?.secondsGame -= 1
-        })
+        
+        if Settings.shared.currentSettings.timerState {
+            timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true, block: { [weak self] (_) in
+                self?.secondsGame -= 1
+            })
+        }
+        
     }
     
     func check(index: Int) -> Void {

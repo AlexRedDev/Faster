@@ -36,4 +36,8 @@ class Settings {
             }
         }
     }
+    
+    func resetSetting() {
+        currentSettings = defaultSettings
+    }
 }

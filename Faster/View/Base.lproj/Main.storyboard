@@ -384,6 +384,9 @@
                                                 </label>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q6B-oM-mMM">
                                                     <rect key="frame" x="353" y="6" width="51" height="32"/>
+                                                    <connections>
+                                                        <action selector="changeTimerState:" destination="QOe-e4-zSm" eventType="valueChanged" id="zHR-4f-UJe"/>
+                                                    </connections>
                                                 </switch>
                                             </subviews>
                                             <constraints>
@@ -436,9 +439,12 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fs1-Dy-8jb">
-                                                    <rect key="frame" x="155.5" y="7" width="103" height="30"/>
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fs1-Dy-8jb">
+                                                    <rect key="frame" x="155.5" y="8" width="103" height="30"/>
                                                     <state key="normal" title="Default Setting"/>
+                                                    <connections>
+                                                        <action selector="resetSettings:" destination="QOe-e4-zSm" eventType="touchUpInside" id="P26-C0-HWP"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -456,6 +462,10 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Setting" id="GzU-Sk-8wF"/>
+                    <connections>
+                        <outlet property="switchTimer" destination="Q6B-oM-mMM" id="pz0-An-ET0"/>
+                        <outlet property="timeGameLabel" destination="W2W-ri-qG3" id="6Av-0n-tOR"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SnO-dC-85U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

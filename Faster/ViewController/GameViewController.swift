@@ -15,7 +15,7 @@ class GameViewController: UIViewController {
     @IBOutlet weak var TimerLabel: UILabel!
     @IBOutlet weak var newGame: UIButton!
     
-    private lazy var game = Game(countItem: buttons.count, time: 10, updateTimer: { [weak self] (status, second) in
+    private lazy var game = Game(countItem: buttons.count, updateTimer: { [weak self] (status, second) in
         guard let self = self else {return}
         self.TimerLabel.text = second.secondsToString()
         self.updateInfoGame(with: status)
@@ -23,9 +23,12 @@ class GameViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         setupScreen()
-        
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(true)
+        game.stopGame()
     }
     private func setupScreen(){
         for index in game.items.indices {
