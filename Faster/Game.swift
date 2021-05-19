@@ -37,23 +37,38 @@ class Game {
     
     var items: [Item] = []
     var nextItem: Item?
+    var isNewRecord = false
     var status: StatusGame = .start {
         didSet{
             if status != .start{
+                if status == .win {
+                    let newRecord = timeForGame - secondsGame
+                    
+                    let record = UserDefaults.standard.integer(forKey: KeysUserDefaults.recordGame)
+                    
+                    if record == 0 || newRecord < record {
+                        UserDefaults.standard.setValue(newRecord, forKey: KeysUserDefaults.recordGame)
+                        isNewRecord = true
+                    }
+                }
                 stopGame()
             }
         }
     }
     
     init(countItem: Int, updateTimer: @escaping (_ status: StatusGame, _ second: Int) -> Void) {
+        
         self.countItems = countItem
         self.timeForGame = Settings.shared.currentSettings.timeForGame
         self.secondsGame = Settings.shared.currentSettings.timeForGame
         self.updateTimer = updateTimer
+        
         setupGame()
     }
     
     private func setupGame() -> Void {
+        isNewRecord = false
+        
         var digits = data.shuffled()
         items.removeAll()
         while items.count <  countItems {
@@ -73,8 +88,10 @@ class Game {
     }
     
     func check(index: Int) -> Void {
+        
         guard status == .start else { return }
         if items[index].title == nextItem?.title {
+            
             items[index].isFound = true
             nextItem = items.shuffled().first(where: { Item in
                 Item.isFound == false

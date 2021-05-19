@@ -61,7 +61,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="fMx-Ej-XKI"/>
+                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="g8Z-za-bI2"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a7y-FE-XdV">
@@ -72,7 +72,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="9G4-ke-hG9"/>
+                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="6RW-xo-fy1"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RC6-L0-iXc">
@@ -110,7 +110,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="UbM-34-7h8"/>
+                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="tKV-DC-Z6i"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQl-wc-0ZH">
@@ -121,7 +121,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="YbV-8V-9PH"/>
+                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="geA-v0-sfX"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Gz-n2-0SK">
@@ -132,7 +132,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="v2S-xH-Cij"/>
+                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="eb5-RN-O9Y"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZB-xJ-TdU">
@@ -143,7 +143,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="dXt-md-awK"/>
+                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="lhU-Yq-Ffw"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -159,7 +159,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="Zf8-2b-9dC"/>
+                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="4BC-il-AT3"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0nd-d6-sBo">
@@ -170,7 +170,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="Fcd-P1-gmb"/>
+                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="eFg-ki-Me8"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m7B-M0-KNg">
@@ -181,7 +181,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="TBR-QY-n2a"/>
+                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="vxT-us-nrm"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0OJ-IB-0Wu">
@@ -192,7 +192,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="J21-nk-VTA"/>
+                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="1WP-Pl-fhR"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -208,7 +208,7 @@
                                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
-                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="rsW-LI-i7d"/>
+                                                    <action selector="pressButton:" destination="Np8-bO-byS" eventType="touchUpInside" id="znO-3l-d05"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceW-bn-sTc">
@@ -266,28 +266,28 @@
                         <outlet property="newGame" destination="nOh-hC-QL9" id="YiR-wX-YU3"/>
                         <outlet property="nextDigit" destination="PWQ-fX-Ksg" id="J32-aL-Exj"/>
                         <outlet property="statusLabel" destination="HfR-54-dcB" id="gIB-C7-aYe"/>
-                        <outletCollection property="buttons" destination="ynx-eK-Y7L" collectionClass="NSMutableArray" id="sWx-8b-P43"/>
-                        <outletCollection property="buttons" destination="oDi-9U-gYZ" collectionClass="NSMutableArray" id="vjQ-Zo-pqK"/>
-                        <outletCollection property="buttons" destination="RC6-L0-iXc" collectionClass="NSMutableArray" id="zO4-xt-iSr"/>
-                        <outletCollection property="buttons" destination="a7y-FE-XdV" collectionClass="NSMutableArray" id="jAf-ro-JnV"/>
-                        <outletCollection property="buttons" destination="RC6-L0-iXc" collectionClass="NSMutableArray" id="9De-5t-ICe"/>
-                        <outletCollection property="buttons" destination="WQl-wc-0ZH" collectionClass="NSMutableArray" id="dQq-MI-USJ"/>
-                        <outletCollection property="buttons" destination="4Gz-n2-0SK" collectionClass="NSMutableArray" id="fDj-sf-InA"/>
-                        <outletCollection property="buttons" destination="sdI-3p-rky" collectionClass="NSMutableArray" id="41c-oT-lTe"/>
-                        <outletCollection property="buttons" destination="dZB-xJ-TdU" collectionClass="NSMutableArray" id="SMi-bt-hMq"/>
-                        <outletCollection property="buttons" destination="Dcu-T9-jPR" collectionClass="NSMutableArray" id="kip-Cg-85Q"/>
-                        <outletCollection property="buttons" destination="m7B-M0-KNg" collectionClass="NSMutableArray" id="na4-0d-cc4"/>
-                        <outletCollection property="buttons" destination="0OJ-IB-0Wu" collectionClass="NSMutableArray" id="vhy-7m-bpn"/>
-                        <outletCollection property="buttons" destination="0nd-d6-sBo" collectionClass="NSMutableArray" id="zRL-QR-f6L"/>
-                        <outletCollection property="buttons" destination="ceW-bn-sTc" collectionClass="NSMutableArray" id="DPs-zU-xxa"/>
-                        <outletCollection property="buttons" destination="ovL-f4-JZN" collectionClass="NSMutableArray" id="xS5-PE-SlS"/>
-                        <outletCollection property="buttons" destination="vgl-IQ-gv5" collectionClass="NSMutableArray" id="W9Q-Ct-hRs"/>
-                        <outletCollection property="buttons" destination="Nkf-VB-Tmx" collectionClass="NSMutableArray" id="9NT-SU-yf7"/>
+                        <outletCollection property="buttons" destination="ynx-eK-Y7L" collectionClass="NSMutableArray" id="Gvf-w7-F1z"/>
+                        <outletCollection property="buttons" destination="a7y-FE-XdV" collectionClass="NSMutableArray" id="z17-En-gnz"/>
+                        <outletCollection property="buttons" destination="RC6-L0-iXc" collectionClass="NSMutableArray" id="I7P-4z-GbX"/>
+                        <outletCollection property="buttons" destination="oDi-9U-gYZ" collectionClass="NSMutableArray" id="QIJ-Se-anl"/>
+                        <outletCollection property="buttons" destination="sdI-3p-rky" collectionClass="NSMutableArray" id="4Es-94-2Vg"/>
+                        <outletCollection property="buttons" destination="WQl-wc-0ZH" collectionClass="NSMutableArray" id="Fv6-SU-ijC"/>
+                        <outletCollection property="buttons" destination="4Gz-n2-0SK" collectionClass="NSMutableArray" id="WdU-sJ-ZZ3"/>
+                        <outletCollection property="buttons" destination="dZB-xJ-TdU" collectionClass="NSMutableArray" id="I1r-Z1-WRH"/>
+                        <outletCollection property="buttons" destination="Dcu-T9-jPR" collectionClass="NSMutableArray" id="ckX-n9-eGc"/>
+                        <outletCollection property="buttons" destination="0nd-d6-sBo" collectionClass="NSMutableArray" id="XaO-UO-dnW"/>
+                        <outletCollection property="buttons" destination="m7B-M0-KNg" collectionClass="NSMutableArray" id="L0J-xN-OBi"/>
+                        <outletCollection property="buttons" destination="0OJ-IB-0Wu" collectionClass="NSMutableArray" id="5lB-sK-DNf"/>
+                        <outletCollection property="buttons" destination="vgl-IQ-gv5" collectionClass="NSMutableArray" id="YWE-Gn-7zq"/>
+                        <outletCollection property="buttons" destination="ceW-bn-sTc" collectionClass="NSMutableArray" id="ttW-cO-mGY"/>
+                        <outletCollection property="buttons" destination="ovL-f4-JZN" collectionClass="NSMutableArray" id="cTZ-xo-rAo"/>
+                        <outletCollection property="buttons" destination="Nkf-VB-Tmx" collectionClass="NSMutableArray" id="bkW-ie-14J"/>
+                        <segue destination="Kmj-kp-REU" kind="presentation" identifier="recordVC" modalPresentationStyle="fullScreen" id="hoQ-MJ-Yc3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pqm-G0-WNy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-36" y="-802"/>
+            <point key="canvasLocation" x="677" y="-875"/>
         </scene>
         <!--Menu-->
         <scene sceneID="ZHZ-N5-B2r">
@@ -321,7 +321,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <state key="normal" title="Recods"/>
                                         <connections>
-                                            <segue destination="mbt-y3-hSW" kind="show" id="kXW-pd-oFY"/>
+                                            <segue destination="Kmj-kp-REU" kind="presentation" modalPresentationStyle="fullScreen" id="kXW-pd-oFY"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -524,20 +524,65 @@
         <!--Record-->
         <scene sceneID="qQa-gN-TB6">
             <objects>
-                <viewController id="mbt-y3-hSW" sceneMemberID="viewController">
+                <viewController id="mbt-y3-hSW" customClass="RecordViewController" customModule="Faster" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pxE-qq-jX3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pfv-FP-9wp">
+                                <rect key="frame" x="107" y="463" width="200" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Bj7-g1-o13"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="koD-xu-RS4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Pfv-FP-9wp" firstAttribute="centerY" secondItem="koD-xu-RS4" secondAttribute="centerY" id="85k-zr-8cO"/>
+                            <constraint firstItem="Pfv-FP-9wp" firstAttribute="centerX" secondItem="koD-xu-RS4" secondAttribute="centerX" id="V5L-6E-HdC"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Record" id="O9L-O3-U3r"/>
+                    <navigationItem key="navigationItem" title="Record" id="O9L-O3-U3r">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="l1o-dc-PPG">
+                            <connections>
+                                <action selector="closeVC:" destination="mbt-y3-hSW" id="NGy-uC-0zO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="recordLabel" destination="Pfv-FP-9wp" id="Jfd-4p-Pwg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JqE-67-gzy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-35" y="610"/>
+            <point key="canvasLocation" x="-177" y="-875"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="kDG-nZ-QPL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Kmj-kp-REU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tw7-K9-hIZ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mbt-y3-hSW" kind="relationship" relationship="rootViewController" id="2m8-rc-8HX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fqj-xZ-NMd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-945" y="-875"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="hoQ-MJ-Yc3"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

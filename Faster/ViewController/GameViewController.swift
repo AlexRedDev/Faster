@@ -16,7 +16,9 @@ class GameViewController: UIViewController {
     @IBOutlet weak var newGame: UIButton!
     
     private lazy var game = Game(countItem: buttons.count, updateTimer: { [weak self] (status, second) in
+        
         guard let self = self else {return}
+        
         self.TimerLabel.text = second.secondsToString()
         self.updateInfoGame(with: status)
     })
@@ -54,10 +56,12 @@ class GameViewController: UIViewController {
     }
     private func updateUI() {
         for index in game.items.indices {
-//            buttons[index].isHidden = game.items[index].isFound
+
             buttons[index].alpha = game.items[index].isFound ? 0 : 1
             buttons[index].isEnabled = !game.items[index].isFound
+            
             if game.items[index].isError {
+                
                 UIView.animate(withDuration: 0.3) { [weak self] in
                     self?.buttons[index].backgroundColor = .red
                 } completion: { [weak self] _ in
@@ -82,11 +86,56 @@ class GameViewController: UIViewController {
             statusLabel.text = "You win"
             statusLabel.textColor = .green
             newGame.isHidden = false
+            if game.isNewRecord  == true {
+                showAlert()
+            } else {
+                showAlertActionSheet()
+            }
         case .lose:
             statusLabel.text = "You lose"
             statusLabel.textColor = .red
             newGame.isHidden = false
+            showAlertActionSheet()
             
         }
+    }
+    
+    private func showAlert() {
+        
+        let alert = UIAlertController(title: "Congratulation", message: "New record", preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "Okay", style: .default, handler: nil)
+        
+        alert.addAction(okAction)
+        
+        present(alert, animated: true, completion: nil)
+    }
+    private func showAlertActionSheet() {
+        let alert = UIAlertController(title: "What you want do", message: nil, preferredStyle: .actionSheet)
+        let newGame = UIAlertAction(title: "New Game", style: .default){ [weak self]
+            _ in
+            self?.game.newGame()
+            self?.setupScreen()
+        }
+        
+        let showRecord = UIAlertAction(title: "Show Record", style: .default) { [weak self]_ in
+            self?.performSegue(withIdentifier: "recordVC", sender: nil)
+        }
+        
+        let menuAction = UIAlertAction(title: "Main Menu", style: .destructive) {[weak self]_ in
+            self?.navigationController?.popViewController(animated: true)
+        }
+        
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+        
+        alert.addAction(newGame)
+        alert.addAction(showRecord)
+        alert.addAction(menuAction)
+        alert.addAction(cancelAction)
+        
+        if let popover = alert.popoverPresentationController {
+            popover.sourceView = statusLabel
+        }
+     
+        present(alert, animated: true, completion: nil)
     }
 }
